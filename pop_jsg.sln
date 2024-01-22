@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pop_jsg", "pop_jsg\pop_jsg.csproj", "{B8C54FEA-FFB8-4D93-8B78-959E73DE9079}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8C54FEA-FFB8-4D93-8B78-959E73DE9079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C54FEA-FFB8-4D93-8B78-959E73DE9079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C54FEA-FFB8-4D93-8B78-959E73DE9079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C54FEA-FFB8-4D93-8B78-959E73DE9079}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50B04E5C-B9F7-49CC-B641-FDE0193EEDA4}
+	EndGlobalSection
+EndGlobal
