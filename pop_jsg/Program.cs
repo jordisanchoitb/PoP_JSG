@@ -12,7 +12,9 @@ public class PopProject
         const string MsgInputYear = "Introdueix l'any";
         const string MsgIncorectFormat = "El format no és correcte";
         const string MsgCorrectFormat = "La data és correcta";
+        const string MsgActionUser = "Que vols fer? \r\nA. Saltar\r\nB. Córrer\r\nC. Ajupir-se\r\nD. Amagar-se";
         int dia, mes, any;
+        string opcio;
         bool validat;
         Console.WriteLine(MsgInputDay);
         dia = Convert.ToInt32(Console.ReadLine());
@@ -27,6 +29,27 @@ public class PopProject
         } else
         {
             Console.WriteLine(MsgIncorectFormat);
+        }
+        
+        Console.WriteLine(MsgActionUser);
+        opcio = Console.ReadLine() ?? "";
+        switch (opcio.ToUpper())
+        {
+            case "A":
+                Console.WriteLine("Salta");
+                break;
+            case "B":
+                Console.WriteLine("Corre");
+                break;
+            case "C":
+                Console.WriteLine("Ajupir-se");
+                break;
+            case "D":
+                Console.WriteLine("Amagar-se");
+                break;
+            default:
+                Console.WriteLine("Opció incorrecta");
+                break;
         }
     }
 
